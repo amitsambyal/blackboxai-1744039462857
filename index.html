@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKBOSE - Jammu and Kashmir Board of School Education</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-overlay {
+            background: linear-gradient(to right, rgba(0, 82, 147, 0.9), rgba(0, 82, 147, 0.7));
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img src="https://via.placeholder.com/60x60?text=JKBOSE" alt="JKBOSE Logo" class="h-12">
+                <h1 class="text-xl font-bold hidden md:block">Jammu & Kashmir Board of School Education</h1>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-200 font-medium">Home</a>
+                <a href="about.html" class="hover:text-blue-200">About</a>
+                <a href="notices.html" class="hover:text-blue-200">Notices</a>
+                <a href="downloads.html" class="hover:text-blue-200">Downloads</a>
+                <a href="contact.html" class="hover:text-blue-200">Contact</a>
+            </nav>
+            <button class="md:hidden text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+        <div class="hero-overlay absolute inset-0 flex items-center">
+            <div class="container mx-auto px-4 text-white">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to JKBOSE</h1>
+                <p class="text-xl md:text-2xl mb-6">Empowering Education in Jammu & Kashmir</p>
+                <a href="about.html" class="bg-white text-blue-800 px-6 py-3 rounded-lg font-medium hover:bg-blue-100 transition duration-300 inline-block">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notice Board -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Latest Notices</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Notice 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                <div class="bg-blue-100 px-4 py-2">
+                    <span class="text-blue-800 font-medium">Date: 10-10-2023</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Annual Examination Schedule</h3>
+                    <p class="text-gray-600 mb-4">Schedule for Class 10th and 12th Annual Regular Examination 2023</p>
+                    <a href="#" class="text-blue-600 hover:underline font-medium">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Notice 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                <div class="bg-blue-100 px-4 py-2">
+                    <span class="text-blue-800 font-medium">Date: 05-10-2023</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Result Declaration</h3>
+                    <p class="text-gray-600 mb-4">Class 12th Annual Regular Examination 2023 Results</p>
+                    <a href="#" class="text-blue-600 hover:underline font-medium">Read More →</a>
+                </div>
+            </div>
+
+            <!-- Notice 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                <div class="bg-blue-100 px-4 py-2">
+                    <span class="text-blue-800 font-medium">Date: 01-10-2023</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2 text-blue-800">Syllabus Update</h3>
+                    <p class="text-gray-600 mb-4">Revised syllabus for Class 9th to 12th for session 2023-24</p>
+                    <a href="#" class="text-blue-600 hover:underline font-medium">Read More →</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8">
+            <a href="notices.html" class="bg-blue-800 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300 inline-block">View All Notices</a>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="bg-blue-50 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 text-blue-800">Quick Links</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="#" class="bg-white p-4 rounded-lg shadow text-center hover:shadow-md transition duration-300">
+                    <i class="fas fa-school text-4xl text-blue-800 mb-2"></i>
+                    <h3 class="font-medium">School Locator</h3>
+                </a>
+                <a href="#" class="bg-white p-4 rounded-lg shadow text-center hover:shadow-md transition duration-300">
+                    <i class="fas fa-calendar-alt text-4xl text-blue-800 mb-2"></i>
+                    <h3 class="font-medium">Academic Calendar</h3>
+                </a>
+                <a href="#" class="bg-white p-4 rounded-lg shadow text-center hover:shadow-md transition duration-300">
+                    <i class="fas fa-book text-4xl text-blue-800 mb-2"></i>
+                    <h3 class="font-medium">Syllabus</h3>
+                </a>
+                <a href="#" class="bg-white p-4 rounded-lg shadow text-center hover:shadow-md transition duration-300">
+                    <i class="fas fa-file-alt text-4xl text-blue-800 mb-2"></i>
+                    <h3 class="font-medium">Results</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> JKBOSE Office, Rehari Colony, Jammu</p>
+                    <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> +91-191-2569001</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2"></i> info@jkbose.nic.in</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-200">Home</a></li>
+                        <li><a href="about.html" class="hover:text-blue-200">About JKBOSE</a></li>
+                        <li><a href="notices.html" class="hover:text-blue-200">Notices</a></li>
+                        <li><a href="downloads.html" class="hover:text-blue-200">Downloads</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-200">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-2xl hover:text-blue-200"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-200"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-200"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-8 pt-6 text-center">
+                <p>&copy; 2023 Jammu and Kashmir Board of School Education. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
